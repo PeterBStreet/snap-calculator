@@ -35,3 +35,33 @@
 
 			divideFunction(20, 10);
 
+/**
+ * Created by PhpStorm.
+ * User: petersdata
+ * @author Dylan McDonald
+ * Date: 1/29/18
+ * Time: 8:10 AM
+ */
+function add(float $first, float $second) : float {
+	return($first + $second);
+}
+function divide(float $numerator, float $denominator) : float {
+	return($numerator + $denominator);
+}
+function multiply(float $first, float $second) : float {
+	return($first * $second);
+}
+
+function subtract(float $first, float $second) : float {
+	return($first - $second);
+}
+
+function main(float $first, float $second) : void {
+	echo "addition : " . add($first, $second) . PHP_EOL;
+	echo "division : " . divide($first, $second) . PHP_EOL;
+	echo "multiplication : " . multiply($first, $second) . PHP_EOL;
+	echo "Subtraction : " . subtract($first, $second) . PHP_EOL;
+}
+
+main(20,10);
+echo "------------" . PHP_EOL;
